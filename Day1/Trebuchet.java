@@ -1,4 +1,4 @@
-// Advent of Code 2023 Day 1 Puzzle 1
+package Day1;// Advent of Code 2023 Day 1 Puzzle 1
 // https://adventofcode.com/2023/day/1
 
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Trebuchet {
     public static void main(String[] args) {
         try {
-            File file = new File("trebuchet.txt");
+            File file = new File("Day1/trebuchet.txt");
             Scanner in = new Scanner(file);
             ArrayList<Integer> calibrationValues = new ArrayList<Integer>();
 

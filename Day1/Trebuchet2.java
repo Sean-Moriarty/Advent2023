@@ -1,3 +1,5 @@
+package Day1;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -45,7 +47,7 @@ public class Trebuchet2 {
 
     public static void main(String[] args) {
         try {
-            File file = new File("trebuchet.txt");
+            File file = new File("Day1/trebuchet.txt");
             Scanner in = new Scanner(file);
             ArrayList<Integer> calibrationValues = new ArrayList<Integer>();
 
